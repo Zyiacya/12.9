@@ -10,8 +10,7 @@ void findWord(char* givenWord, char* article) {
     strcpy(lowerGivenWord, givenWord);
     strcpy(lowerArticle, article);
 
-    for (int i = 0; lowerGivenWord[i]; i++) {
-        lowerGivenWord[i] = tolower(lowerGivenWord[i]);
+
     }
 
     for (int i = 0; lowerArticle[i]; i++) {
